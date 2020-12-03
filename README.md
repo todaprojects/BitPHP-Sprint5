@@ -10,13 +10,13 @@ Registered users can view their recent quizzes (see results of solved quizzes an
 
 ## Installation
 
-1. Clone this repository to the **'`{app-directory}`'** on your host:
+1. Clone this repository to the **`{app-directory}`** on your host:
 
 ```
 git clone https://github.com/todaprojects/BitPHP-Sprint5.git
 ```
 
-And run this CLI command inside of **'`{app-directory}`'**:
+And run this CLI command inside of **`{app-directory}`**:
 
 ```
 composer install
@@ -31,11 +31,11 @@ php artisan ui vue --auth
 ```
 npm install && npm run dev
 ```
-3. Create a **new schema** in your database. Copy the **'`.env.example`'** files and rename it to the **'`.env `'**:
+3. Create a **new schema** in your database. Copy the **`'.env.example'`** files and rename it to the **`'.env'`**:
 ```
 copy .env.example .env
 ```
-Then write your database configuration data to the **'`.env`'** file:
+Then write your database configuration data to the **`'.env'`** file:
 
 ```php
 DB_CONNECTION=mysql
