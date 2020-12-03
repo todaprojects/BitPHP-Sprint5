@@ -10,20 +10,20 @@ Registered users can view their recent quizzes (see results of solved quizzes an
 
 ## Installation
 
-1. Clone this repository to the {app-directory} on your host:
+1. Clone this repository to the **'`{app-directory}`'** on your host:
 
 ```
-$ git clone https://github.com/todaprojects/BitPHP-Sprint5.git
+git clone https://github.com/todaprojects/BitPHP-Sprint5.git
 ```
 
-And run this CLI command:
+And run this CLI command inside of **'`{app-directory}`'**:
 
 ```
 composer install
 ```
 ###### * if composer is not installed globally, run command: "php composer.phar install"
 
-2. After Laravel and otehr dependencies are installed, the following CLI commands:
+2. After Laravel and other dependencies are installed, the following CLI commands:
 
 ```
 php artisan ui vue --auth
@@ -31,7 +31,11 @@ php artisan ui vue --auth
 ```
 npm install && npm run dev
 ```
-3. Create a **new schema** in your database and write it's configuration data to the **'`.env`'** file:
+3. Create a **new schema** in your database. Copy the **'`.env.example`'** files and rename it to the **'`.env `'**:
+```
+copy .env.example .env
+```
+Then write your database configuration data to the **'`.env`'** file:
 
 ```php
 DB_CONNECTION=mysql
@@ -49,7 +53,10 @@ php artisan migrate
 ```
 php artisan db:seed
 ```
-This couple of commands will create database tables and fill some data for a demo purpose.
+```
+php artisan key:generate
+```
+These few commands will create database tables and fill some demo data.
 
 6. Open **`localhost/{app-directory}`** in web browser. The pre-installed login details of 2 users:
 
