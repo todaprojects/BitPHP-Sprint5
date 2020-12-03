@@ -23,7 +23,7 @@ composer install
 ```
 ###### * if composer is not installed globally, run command: "php composer.phar install"
 
-2. After Laravel and other main dependencies are installed, run the following CLI commands for the remaining dependencies:
+2. Run the following CLI commands for the remaining dependencies:
 
 ```
 php artisan ui vue --auth
