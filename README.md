@@ -16,29 +16,29 @@ Registered users can view their recent quizzes (see results of solved quizzes an
 git clone https://github.com/todaprojects/BitPHP-Sprint5.git
 ```
 
-And run this CLI command inside of **`{app-directory}`**:
+And run this CLI command inside of the **`{app-directory}`**:
 
 ```
 composer install
 ```
 ###### * if composer is not installed globally, run command: "php composer.phar install"
 
-2. Create a **new schema** in your database. Copy the **`'.env.example'`** files and rename it to the **`'.env'`**:
+2. Create a **new schema** in your database. Copy the **`'.env.example'`** files and rename it to the **`'.env'`** file:
 ```
 copy .env.example .env
 ```
-Then write your database configuration data to the **`'.env'`** file:
+Then fill your database configuration data to the **`'.env'`** file:
 
 ```php
 DB_CONNECTION=mysql
-DB_HOST=127.0.0.1     // host IP
-DB_PORT=3306          // port
-DB_DATABASE={laravel} // database name
-DB_USERNAME={root}    // username
-DB_PASSWORD={root}    // password
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE={database_name}
+DB_USERNAME={username}
+DB_PASSWORD={password}
 ```
 
-3. Afterwards, run these CLI commands:
+3. Finnally, run remaining CLI commands:
 ```
 php artisan migrate
 ```
@@ -50,13 +50,13 @@ php artisan key:generate
 ```
 These few commands will create database tables and fill some demo data.
 
-4. Open **`localhost/{app-directory}`** in web browser. The pre-installed login details of 2 users:
+4. Now open **`localhost/{app-directory}`** in web browser to run the app. The pre-installed login details of 2 users:
 
-    6.1 for **`admin`** access:
+    #### 4.1 for **`admin`** access:
     * ##### **admin** (_as username_)
     * ##### **admin** (_as password_)
 
-    6.2 for **`user`** access:
+    #### 4.2 for **`user`** access:
     * ##### **user** (_as username_)
     * ##### **user** (_as password_)
 
