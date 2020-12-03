@@ -21,7 +21,7 @@ And run this CLI command inside of the **`{app-directory}`**:
 ```
 composer install
 ```
-###### * if composer is not installed globally, run command: "php composer.phar install"
+###### _* if `composer` is not installed globally, run command: "php composer.phar install"_
 
 2. Create a **new schema** in your database. Copy the **`'.env.example'`** files and rename it to the **`'.env'`** file:
 ```
@@ -50,13 +50,14 @@ php artisan key:generate
 ```
 These few commands will create database tables and fill some demo data.
 
-4. Now open **`localhost/{app-directory}`** in web browser to run the app. The pre-installed login details of 2 users:
+4. Now open **`localhost/{app-directory}`** in your web browser to run the app. 
+The pre-installed login details of 2 users:
 
-    #### 4.1 for **`admin`** access:
+    4.1 for **`admin`** access:
     * ##### **admin** (_as username_)
     * ##### **admin** (_as password_)
 
-    #### 4.2 for **`user`** access:
+    4.2 for **`user`** access:
     * ##### **user** (_as username_)
     * ##### **user** (_as password_)
 
