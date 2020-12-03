@@ -23,15 +23,7 @@ composer install
 ```
 ###### * if composer is not installed globally, run command: "php composer.phar install"
 
-2. Run the following CLI commands for the remaining dependencies:
-
-```
-php artisan ui vue --auth
-```
-```
-npm install && npm run dev
-```
-3. Create a **new schema** in your database. Copy the **`'.env.example'`** files and rename it to the **`'.env'`**:
+2. Create a **new schema** in your database. Copy the **`'.env.example'`** files and rename it to the **`'.env'`**:
 ```
 copy .env.example .env
 ```
@@ -46,7 +38,7 @@ DB_USERNAME={root}    // username
 DB_PASSWORD={root}    // password
 ```
 
-4. Afterwards, run these CLI commands:
+3. Afterwards, run these CLI commands:
 ```
 php artisan migrate
 ```
@@ -58,7 +50,7 @@ php artisan key:generate
 ```
 These few commands will create database tables and fill some demo data.
 
-6. Open **`localhost/{app-directory}`** in web browser. The pre-installed login details of 2 users:
+4. Open **`localhost/{app-directory}`** in web browser. The pre-installed login details of 2 users:
 
     6.1 for **`admin`** access:
     * ##### **admin** (_as username_)
