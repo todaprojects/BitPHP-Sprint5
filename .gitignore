@@ -10,13 +10,3 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-
-/app/Http/Controllers/Auth
-/database/migrations/2014_10_12_100000_create_password_resets_table.php
-/public/css/app.css
-/public/js/app.js
-/public/mix-manifest.json
-/resources/js/components
-/resources/js/components/app.js
-/resources/js/components/bootstrap.js
-/resources/sass
