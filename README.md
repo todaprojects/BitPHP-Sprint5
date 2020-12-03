@@ -38,7 +38,7 @@ DB_USERNAME={username}
 DB_PASSWORD={password}
 ```
 
-3. Finnally, run remaining CLI commands:
+3. Finnally, run these remaining CLI commands:
 ```
 php artisan migrate
 ```
@@ -48,7 +48,7 @@ php artisan db:seed
 ```
 php artisan key:generate
 ```
-These few commands will create database tables and fill some demo data.
+The above commands will create database tables and fill some demo data.
 
 4. Now open **`localhost/{app-directory}`** in your web browser to run the app. 
 The pre-installed login details of 2 users:
